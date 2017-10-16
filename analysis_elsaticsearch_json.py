@@ -79,9 +79,6 @@ with open("E:\dataunit\idea.question.v1_question.json",'r',encoding='utf-8') as 
     print('家庭纠纷QA对的数目是：\t', family_disputes_case,'\t', "占比:\t", str(family_disputes_case / 807900))
     print('其他QA对的数目是：\t', other,'\t',"占比:\t",str(other/807900))
 
-
-
-
         # if re.search("劳", data['questionClassPath'][4]):
         #     marriage_case += 1
         #     print('questionTitle: ', data['questionTitle'])
